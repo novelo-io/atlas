@@ -1,5 +1,5 @@
 import scrapy
-from items import Councilman
+from councilman.items import Councilman
 
 
 class CouncilmanSpider(scrapy.Spider):

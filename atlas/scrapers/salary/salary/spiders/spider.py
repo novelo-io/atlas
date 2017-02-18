@@ -1,11 +1,11 @@
 import scrapy
-from items import Salary
+from salary.items import Salary
 
 
 class SalarySpider(scrapy.Spider):
 
     name = 'salary_spider'
-    base_url = 'http://www2.camara.sp.gov.br/SalariosAbertos/HTML_ativos_2016_11'
+    base_url = 'http://www2.camara.sp.gov.br/SalariosAbertos/HTML_ativos_2017_01'
     start_urls = [
         '{0}/todos.html'.format(base_url)
     ]
