@@ -1,0 +1,1 @@
+scrapy crawl salary_spider -t csv -o ../../../data/salary.csv
