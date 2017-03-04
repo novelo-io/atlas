@@ -11,3 +11,5 @@ class Councilman(scrapy.Item):
     floor = scrapy.Field()
     room = scrapy.Field()
     biography = scrapy.Field()
+    party = scrapy.Field()
+    picture = scrapy.Field()

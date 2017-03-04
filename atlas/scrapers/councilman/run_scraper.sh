@@ -1,1 +1,1 @@
-scrapy crawl councilman_spider -t csv -o ../../../data/councilman.csv
+scrapy crawl councilman_spider -t csv -o ../../data/councilman.csv

@@ -24,15 +24,18 @@ class CouncilmanSpider(scrapy.Spider):
     def parse_councilman(self, response):
         item = response.meta['item']
 
+        party = response.xpath("//h3[@class='vereador-party']/img/@title").extract_first()
+        picture = response.xpath("//h1[@class='vereador-picture']/a/img/@src").extract_first()
+
         info = response.xpath("//div[@class='vereador-data']/ul")
 
-        phone_number = info.xpath("//li/strong[contains(text(),'Telefone')]/../text()").extract_first(default='').strip()
-        email = info.xpath("//li/strong[contains(text(),'E-mail')]/../a/text()").extract_first(default='').strip()
+        phone_number = info.xpath("//li/strong[contains(text(),'Telefone')]/../text()").extract_first(default='')
+        email = info.xpath("//li/strong[contains(text(),'E-mail')]/../a/text()").extract_first(default='')
         address = info.xpath(
             "//li/strong[contains(text(),'Endereço para correspondência')]/../text()"
-        ).extract_first(default='').strip()
-        floor = info.xpath("//li/strong[contains(text(),'Andar')]/../text()").extract_first(default='').strip()
-        room = info.xpath("//li/strong[contains(text(),'Sala')]/../text()").extract_first(default='').strip()
+        ).extract_first(default='')
+        floor = info.xpath("//li/strong[contains(text(),'Andar')]/../text()").extract_first(default='')
+        room = info.xpath("//li/strong[contains(text(),'Sala')]/../text()").extract_first(default='')
 
         biography = response.xpath("//section[@class='entry-content cf']/span/text()").extract_first()
 
@@ -42,5 +45,8 @@ class CouncilmanSpider(scrapy.Spider):
         item['floor'] = floor
         item['room'] = room
         item['biography'] = biography
+
+        item['party'] = party
+        item['picture'] = picture
 
         return item
