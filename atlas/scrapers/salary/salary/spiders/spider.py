@@ -1,4 +1,5 @@
 import datetime
+from dateutil import relativedelta
 import scrapy
 from salary.items import Salary
 
@@ -6,10 +7,19 @@ from salary.items import Salary
 class SalarySpider(scrapy.Spider):
 
     name = 'salary_spider'
-    base_url = 'http://www2.camara.sp.gov.br/SalariosAbertos/HTML_ativos_2017_01'
-    start_urls = [
-        f'{base_url}/todos.html'
-    ]
+    
+    def __init__(self, month=None, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        self.month = month
+        if self.month is None or self.month == '':
+            previous_month = datetime.date.today() - relativedelta.relativedelta(months=1)
+            self.month = str(previous_month.month).zfill(2)
+
+        self.base_url = f'http://www2.camara.sp.gov.br/SalariosAbertos/HTML_ativos_2017_{self.month}'
+        self.start_urls = [
+            f'{self.base_url}/todos.html'
+        ]
 
     def parse(self, response):
         sector = None

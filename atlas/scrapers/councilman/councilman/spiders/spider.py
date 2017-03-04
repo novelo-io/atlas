@@ -19,9 +19,6 @@ class CouncilmanSpider(scrapy.Spider):
             item['name'] = name
             item['page_link'] = link
 
-            print(name)
-            print(link)
-
             yield scrapy.Request(link, meta={'item': item}, callback=self.parse_councilman)
 
     def parse_councilman(self, response):

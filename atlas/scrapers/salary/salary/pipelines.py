@@ -1,5 +1,4 @@
 
-
 class SalaryPipeline(object):
 
     def process_item(self, item, spider):
