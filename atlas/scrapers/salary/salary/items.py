@@ -8,5 +8,6 @@ class Salary(scrapy.item.Item):
     role = scrapy.Field()
     gross_salary = scrapy.Field()
     net_salary = scrapy.Field()
+    database = scrapy.Field()
     link = scrapy.Field()
     download_time = scrapy.Field()
