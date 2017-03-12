@@ -54,7 +54,7 @@ class SalarySpider(scrapy.Spider):
                 item['name'] = name
                 item['role'] = role
                 item['link'] = salary_url
-                item['database'] = datetime.date(int(self.year), int(self.month), 1)
+                item['as_of'] = datetime.date(int(self.year), int(self.month), 1)
                 item['download_time'] = now
 
                 yield scrapy.Request(salary_url, meta={'item': item}, callback=self.parse_salary)

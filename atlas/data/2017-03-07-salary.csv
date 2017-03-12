@@ -1,4 +1,4 @@
-database,download_time,gross_salary,link,name,net_salary,role,sector
+as_of,download_time,gross_salary,link,name,net_salary,role,sector
 2017-01-01,2017-03-07 23:56:00.510865,"R$ 2.441,35",http://www2.camara.sp.gov.br/SalariosAbertos/HTML_ativos_2017_01/90158_detalhes.html,GCM 96,"R$ 2.401,05",GUARDA CIVIL METROPOLITANO,GUARDA CIVIL METROPOLITANA
 2017-01-01,2017-03-07 23:56:00.510865,"R$ 2.615,73",http://www2.camara.sp.gov.br/SalariosAbertos/HTML_ativos_2017_01/90150_detalhes.html,GCM 88,"R$ 2.562,35",GUARDA CIVIL METROPOLITANO,GUARDA CIVIL METROPOLITANA
 2017-01-01,2017-03-07 23:56:00.510865,"R$ 3.364,80",http://www2.camara.sp.gov.br/SalariosAbertos/HTML_ativos_2017_01/90157_detalhes.html,GCM 95,"R$ 3.297,90",GUARDA CIVIL METROPOLITANO,GUARDA CIVIL METROPOLITANA
