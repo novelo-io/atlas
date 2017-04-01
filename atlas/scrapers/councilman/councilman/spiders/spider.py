@@ -48,5 +48,6 @@ class CouncilmanSpider(scrapy.Spider):
 
         item['party'] = party
         item['picture'] = picture
+        item['status'] = 1
 
         return item

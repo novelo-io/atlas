@@ -13,3 +13,4 @@ class Councilman(scrapy.Item):
     biography = scrapy.Field()
     party = scrapy.Field()
     picture = scrapy.Field()
+    status = scrapy.Field()
