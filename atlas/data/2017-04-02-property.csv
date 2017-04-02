@@ -31,6 +31,12 @@ sequential_id,kind,description,value
 250000004984,Construção,ESTÂNCIA BALNEÁRIA DE PERUÍBE - SP,195004.25
 250000004984,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",CHEVROLET SPIN LT 1.8 - 2014/2015,46810.2
 250000004984,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",CHEVROLET ONIX 1.0 LS - 2014,31500
+250000004986,Apartamento,"50% DO APARTAMENTO NO TATUAPÉ, NA CIDADE DE SÃO PAULO - SP",178913.98
+250000004986,Caderneta de poupança,BANCO ITAÚ,280.07
+250000004986,Apartamento,50% DO APARTAMENTO EM BERTIOGA - SP,68418.42
+250000004986,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",VOLVO XC60 2.0 - 2011/2011,98000
+250000004986,Caderneta de poupança,BANCO SANTANDER,3104.19
+250000004986,Depósito bancário em conta corrente no País,BANCO BRADESCO,483.07
 250000004987,Caderneta de poupança,CAIXA ECONOMICA,23483.02
 250000004987,Casa,IMOVEL EM PIRITUBA,53000
 250000004987,Depósito bancário em conta corrente no País,BANCO DO BRASIL,4020.21
@@ -73,6 +79,13 @@ sequential_id,kind,description,value
 250000004997,Depósito bancário em conta corrente no País,BANCO DO BRASIL,27241.09
 250000004997,Dinheiro em espécie - moeda nacional,ECONOMIA,41300
 250000004997,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",HONDA CIVIC - 2013/2013,60000
+250000005003,Casa,50% DE IMOVEL RESIDENCIA. SITUADA A RUA OROS BAIRRO SUMAREZINHO SP/SP,400000
+250000005003,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",AUTOMOVEL HONDA FIT 2014/2015,52256.46
+250000005003,VGBL - Vida Gerador de Benefício Livre,SANTANDER SEGUROS S/A,12544.15
+250000005003,"Aplicação de renda fixa (CDB, RDB e outros)",APLICAÇÃO RDB BANCO SANTANDER,14037.67
+250000005003,Depósito bancário em conta corrente no País,SALDO CONTA BANCO DO BRASIL,759.92
+250000005003,Depósito bancário em conta corrente no País,SALDO CONTA BANCO SANTANDER,9138.89
+250000005003,Dinheiro em espécie - moeda nacional,DISPONIBILIDADES,40000
 250000005006,Apartamento,IMOVEL RESIDENCIAL NO TATUAPÉ,241855.14
 250000005006,Apartamento,IMOVEL RESIDENCIAL NO TATUAPÉ,814793.39
 250000005006,Outros bens imóveis,IMOVEL RESIDENCIAL NO TATUAPÉ,260000
@@ -134,6 +147,8 @@ sequential_id,kind,description,value
 250000008375,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","UM VEICULO CITROEN C3, 1.4, GLX, ANO 2011, PLACA EUT 9603",36990
 250000008375,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","UM VEICULO MITSUBISHI PAJERO DAKAR, ANO 2013, PLACA EXM 9987",100000
 250000008375,Dinheiro em espécie - moeda nacional,DINHEIRO EM ESPÉCIE EM MOEDA NACIONAL,35000
+250000010842,Casa,NA VILA POMPÉIA,300000
+250000010842,Título de clube e assemelhado,CLUBE DE CAMPO,50000
 250000010847,Apartamento,NA MOOCA,70000
 250000010847,Fundo de capitalização,TITULO NO BANCO SANTANDER,13744.5
 250000010847,VGBL - Vida Gerador de Benefício Livre,BANCO SANTANDER,157000
@@ -185,6 +200,19 @@ sequential_id,kind,description,value
 250000010991,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",2 VW FUSCA 1955,10000
 250000010991,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",2 VW FUSCA 1965,15000
 250000010991,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",3 VW FUSCA 1979,14000
+250000010992,Casa,2/3 CASA VILA MADALENA,203921.67
+250000010992,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",NISSAN SENTRA 2011,39182
+250000010992,Fundo de investimento financeiro - FIF,FUNDO INV SANTANDER,194378.47
+250000010992,Fundo de investimento financeiro - FIF,FUNDO DI STILO BB,33055.04
+250000010992,Depósito bancário em conta corrente no País,BANCO SANTANDER,28013.29
+250000010992,"Aplicação de renda fixa (CDB, RDB e outros)",BANCO SANTANDER,69486.85
+250000010992,Casa,RUA BELFORT ROXO/PIRITUBA/SÃOPAULO/SP,380000
+250000010992,Casa,RUA BENEDITO PEREIRA/PIRITUBA/SÃO PAULO/SP,133333
+250000010992,"Aplicação de renda fixa (CDB, RDB e outros)",LCA PÓS CDI BB,300000
+250000010992,Fundo de investimento financeiro - FIF,CAIXA FEDERAL FI 6800,306118.43
+250000010992,Fundo de investimento financeiro - FIF,LETRA C IMOB,140000
+250000010992,VGBL - Vida Gerador de Benefício Livre,PREV CAIXA,104200
+250000010992,Depósito bancário em conta corrente no País,CAIXA EF,14139.09
 250000010999,Apartamento,APTO NA VILA CARRÃO,37062
 250000010999,"Aplicação de renda fixa (CDB, RDB e outros)",CDB SANTANDER,11410.19
 250000010999,Depósito bancário em conta corrente no País,45 CDB SANTANDER,6.51
@@ -313,6 +341,18 @@ sequential_id,kind,description,value
 250000011622,"Aplicação de renda fixa (CDB, RDB e outros)",BANCO ITAU-RENDA FIXA,21739.68
 250000011622,Fundo de capitalização,BANCO ITAU-TITULO DE CAPITALIZAÇÃO,859.77
 250000011622,Dinheiro em espécie - moeda nacional,DINHEIRO EM ESPECIE,60230
+250000011624,Casa,CASA EM ITAPECIRICA DA SERRA-SP,76948.76
+250000011624,Terreno,TERRENO EM RIO DAS OSTRAS-RJ,28650
+250000011624,Casa,LINHA TELEFÔNICA,6453.93
+250000011624,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",AUTOMOVEL MERCEDES BENZ ANO 1978,8000
+250000011624,Outras participações societárias,SOCIEDADE LOJA EM CONSTRUÇÃO EM SÃO PAULO-SP,270810.53
+250000011624,Depósito bancário em conta corrente no País,BANCO DO BRASIL CONTA CORRENTE E POUPANÇA,2244.49
+250000011624,VGBL - Vida Gerador de Benefício Livre,BANCO SANTANDER VGBL,13700.19
+250000011624,Consórcio não contemplado,CONSÓRCIO REMAZA NOVA TERRA,33394.27
+250000011624,Outros créditos e poupança vinculados,OUROCAP PRÊMIO BANCO DO BRASIL,13527.55
+250000011624,Fundo de investimento financeiro - FIF,BANCO SANTANDER RENDA FIXA E FUNDO DE INVESTIMENTO,107273.69
+250000011624,Depósito bancário em conta corrente no País,CAIXA ECONOMICA FEDERAL CONTA CORRENTE,90.28
+250000011624,"Ouro, ativo financeiro",BANCO DO BRASIL BB AGRONEGÓCIO,65000
 250000011625,Casa,"IMOVEL SITUADO A RUA DO AROUCHE,144 - CONSOLAÇÃO-SÃOPAULO/SP",726613.25
 250000011625,Terreno,"TERRENO SITUADO A RUA CHAVES, LOTE 16 DA QD 08-JD MARAJOARA COM ÁREA DE 693,90M²",115000
 250000011625,Outras participações societárias,"85% DA PARTE SOCIETÁRIA NA EMPRESA ETT, AQUISIÇÃO EM 2005",1700
@@ -447,6 +487,9 @@ sequential_id,kind,description,value
 250000020854,Depósito bancário em conta corrente no País,CC CEF,2463.1
 250000020854,VGBL - Vida Gerador de Benefício Livre,BANCO ITAU,79623.73
 250000020854,Caderneta de poupança,BANCO ITAU,624.41
+250000022073,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",FORD FOCUS 2010/2011,34000
+250000022073,Dinheiro em espécie - moeda nacional,EM PODER DO DECLARANTE,130000
+250000022073,Depósito bancário em conta corrente no País,CAIXA ECONOMICA FEDERAL,20000
 250000022074,Depósito bancário em conta corrente no País,ATIVOS EM CONTA BANCÁRIA - BANCO SANTANDER,46114
 250000022074,Casa,"CASA NA RUA INDOCHINA, 26 - JARDIM DAS IMBUIAS-SP",253000
 250000022074,Consórcio não contemplado,CONSÓRCIO MERCABENCO - MERC ADM BENS CONSÓRCIO,32998.48
