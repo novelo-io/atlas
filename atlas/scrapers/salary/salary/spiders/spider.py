@@ -20,7 +20,7 @@ class SalarySpider(scrapy.Spider):
             self.year = str(today.year)
             self.month = str(previous_month.month).zfill(2)
 
-        self.base_url = f'http://www2.camara.sp.gov.br/SalariosAbertos/HTML_ativos_{self.year}_{self.month}'
+        self.base_url = f'http://www.camara.sp.gov.br/wp-content/uploads/salariosabertos/HTML_ativos_{self.year}_{self.month}'
         self.start_urls = [
             f'{self.base_url}/todos.html'
         ]
