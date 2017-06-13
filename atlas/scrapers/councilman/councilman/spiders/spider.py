@@ -5,7 +5,10 @@ from councilman.items import Councilman
 class CouncilmanSpider(scrapy.Spider):
 
     name = 'councilman_spider'
-    start_urls = ['http://www.camara.sp.gov.br/vereadores/']
+    start_urls = [
+        'http://www.camara.sp.gov.br/vereadores/',
+        'http://www.camara.sp.gov.br/vereadores/?filtro=licenciados'
+    ]
 
     def parse(self, response):
         councilmen = response.xpath("//article[@class='vereador-profile-thumb cf']")
@@ -37,7 +40,7 @@ class CouncilmanSpider(scrapy.Spider):
         floor = info.xpath("//li/strong[contains(text(),'Andar')]/../text()").extract_first(default='')
         room = info.xpath("//li/strong[contains(text(),'Sala')]/../text()").extract_first(default='')
 
-        biography = response.xpath("//section[@class='entry-content cf']/span/text()").extract_first()
+        biography = response.xpath("//section[@class='entry-content cf']/span/text()").extract_first(default='')
 
         item['phone_number'] = phone_number
         item['email'] = email
